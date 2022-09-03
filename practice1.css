@@ -1,0 +1,11 @@
+h1{
+    color: brown;
+}
+/* dec class */
+.first{
+    color: green;
+}
+/* dec id */
+#sec{
+    color: blue;
+}
