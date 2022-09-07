@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: slategray;
+            margin: 0;
+            padding: 0;
+        }
+         #wrapper{
+            border: 0px solid black;
+            width: 1000px;
+            background: white;
+            margin: 0 auto;
+
+    }
+        #header{
+            background: crimson;
+            height: 90px;
+            color: aliceblue;
+            
+            
+        }
+        #header h1{
+            padding: 30px 0 0 20px;
+        }
+        #menu{
+            background: lightsalmon;
+        }
+        #menu ul{
+            margin: 0;
+            padding: 0;
+        }
+        #menu li{
+            display: inline-block;
+        }
+        #menu li a{
+            display: block;
+            padding: 10px 13px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+            background: crimson;
+            color: white;
+        }
+        #contant{
+            width: 800px;
+            float: left;
+            min-height: 500px;
+            padding: 15px;
+            /* when we use padding its increase 10px left and right, overcome this problem we using box-sizing: border-box; */
+            box-sizing: border-box;
+            text-align: justify;
+            
+        }
+        #sidebar{
+            background: lightblue;
+            width: 200px;
+            float: right;
+            min-height: 500px;
+            
+            
+
+        }
+        #sidebar a{
+            text-decoration: none;
+            color: black;
+        }
+        #footer{
+            background: crimson;
+            padding: 5px 10px;
+            text-align: right;
+            /* for cheking both float is end */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="wrapper">
+        <div id="header">
+            <h1>Simple Website</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="contant">
+            <h2>Basic Layout</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae autem laboriosam voluptates debitis, iste soluta rerum illo temporibus vero, perspiciatis distinctio ullam deleniti assumenda a eos nobis odio unde. Dignissimos eaque sit debitis magnam ipsa, eos iure expedita et aut, consectetur ad cum laboriosam in id molestias recusandae suscipit repudiandae consequatur ea quia dolorem exercitationem illo perspiciatis officiis? Fugit expedita eos cum dolor reiciendis rem vel blanditiis pariatur aliquid mollitia ipsam beatae, at similique dolorem. Suscipit quia maiores iure atque nihil quisquam quaerat modi neque aut unde eos animi at fugit, ea consequatur aliquam totam minus ad quo quibusdam nulla minima deserunt explicabo! Enim tempora animi magni esse sequi repudiandae, architecto veniam? Deleniti cumque iure ad dolorem, neque fugiat rerum fugit placeat nostrum provident similique, odio laudantium? Accusantium unde labore eum laudantium accusamus repellendus fugit pariatur deserunt corrupti quidem nulla mollitia corporis tempora, facere error cum, officia eaque nam aperiam iure itaque ex sequi iste provident. Eum, dignissimos veritatis a, praesentium tenetur eligendi ducimus eaque cupiditate voluptates fugiat aliquid, repellat suscipit provident beatae mollitia! Cum consequuntur facere architecto atque unde explicabo obcaecati labore vitae! Eaque ab praesentium porro fugit magnam accusantium dignissimos commodi quibusdam eius quis! Possimus laborum repellendus officia?</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            sonjoysaha36@gmail.com
+        </div>
+    </div>
+</div>
+</body>
+</html>
