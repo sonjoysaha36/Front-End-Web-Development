@@ -25,12 +25,13 @@
             font-size: 40px;
             box-shadow: 0 0 15px pink;
             animation-name: sample;
-            animation-duration: 2s;
+            animation-duration: 1s;
             animation-iteration-count: infinite;
+            animation-direction: alternate;
         }
         @keyframes sample{
             from{border-radius: 0%;}
-            to{border-radius: 50%;}
+            to{border-radius: 50%; background-color: tomato; color: white;}
         }
     </style>
 </head>
