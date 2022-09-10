@@ -19,12 +19,16 @@
             /* for using gap  */
 
             grid-gap: 20px;
-
-            /* grid-row-gap: 20px;
-            grid-column-gap: 30px; */
         }
         .items1{
             background: orangered;
+            /* if we want to exchange div */
+            grid-row-start: 2;
+            grid-row-end: 3;
+            /* shortform */
+            grid-column: 3/4;
+            /* grid-column-start: 3;
+            grid-column-end: 4; */
         }
         .items2{
             background: yellowgreen;
@@ -40,6 +44,14 @@
         }
         .items6{
             background: skyblue;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .items{
+            color: #eee;
+            font-size: 20px;
         }
     </style>
 </head>
