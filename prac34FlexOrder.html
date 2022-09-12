@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background: #eee;
+            border: 1px solid black;
+            height: 150px;
+            width: 400px;
+            display: flex;
+            align-items: flex-start;
+            margin: 50px;
+            padding: 10px;
+
+        }
+        .items{
+            background: #fff;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        .item1{
+            background: orangered;
+            order: 1;
+        }
+        .item2{
+            background: blueviolet;
+            /* using order */
+            order: -1;
+
+        }
+        .item3{
+            background: hotpink;
+            order: -2;
+        }
+        .item4{
+            background: mediumpurple;
+        }
+        .item5{
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three</div>
+        <div class="items item4">Four</div>
+        <div class="items item5">five</div>
+    </div>
+</body>
+</html>

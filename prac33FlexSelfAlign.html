@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background: #eee;
+            border: 2px solid black;
+            margin: 50px;
+            padding: 10px;
+            width: 400px;
+            height: 400px;
+
+            display: flex;
+            align-items: center;
+        }
+        .items{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+        .item1{background: orangered;}
+        .item2{background: hotpink;
+        align-self: flex-start;}
+        .item3{background: skyblue;}
+        .item4{background: mediumpurple;
+        align-self: stretch;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">First</div>
+        <div class="items item2">Second</div>
+        <div class="items item3">Third</div>
+        <div class="items item4">Fourth</div>
+    </div>
+</body>
+</html>
